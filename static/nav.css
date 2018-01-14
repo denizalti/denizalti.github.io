@@ -1,0 +1,189 @@
+nav {
+  display: none; }
+  @media screen and (min-width: 700px) {
+    nav {
+      display: block;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0; } }
+  @media screen and (min-width: 890px) {
+    nav {
+      padding: 0 20px; } }
+  @media screen and (min-width: 1220px) { }
+  nav.active {
+    display: block; }
+  nav .header-social-mobile, nav .header-social-desktop {
+    list-style-type: none;
+    margin: 0;
+    padding: 0.6em; }
+    nav .header-social-mobile .header-sign-up, nav .header-social-desktop .header-sign-up {
+      text-align: center;
+      margin-bottom: 0.5em; }
+      nav .header-social-mobile .header-sign-up .newsletter-form-wrapper, nav .header-social-desktop .header-sign-up .newsletter-form-wrapper {
+        display: inline-block; }
+        nav .header-social-mobile .header-sign-up .newsletter-form-wrapper .email, nav .header-social-desktop .header-sign-up .newsletter-form-wrapper .email {
+          height: 20px;
+          color: #000000; }
+        nav .header-social-mobile .header-sign-up .newsletter-form-wrapper .submit, nav .header-social-desktop .header-sign-up .newsletter-form-wrapper .submit {
+          font-size: 12px;
+          display: inline-block;
+          font-family: 'futura-pt';
+          font-style: italic;
+          background-color: #000000;
+          text-transform: none;
+          padding: 0.6em 0.6em;
+          border: 0;
+          text-align: center; }
+          @media screen and (min-width: 700px) {
+            nav .header-social-mobile .header-sign-up .newsletter-form-wrapper .submit, nav .header-social-desktop .header-sign-up .newsletter-form-wrapper .submit {
+              font-size: 15px; } }
+          @media screen and (min-width: 890px) {
+            nav .header-social-mobile .header-sign-up .newsletter-form-wrapper .submit, nav .header-social-desktop .header-sign-up .newsletter-form-wrapper .submit {
+              font-size: 18px; } }
+          @media screen and (min-width: 700px) {
+            nav .header-social-mobile .header-sign-up .newsletter-form-wrapper .submit, nav .header-social-desktop .header-sign-up .newsletter-form-wrapper .submit {
+              padding: 0.2em 1em 0.3em; }
+              nav .header-social-mobile .header-sign-up .newsletter-form-wrapper .submit:hover, nav .header-social-desktop .header-sign-up .newsletter-form-wrapper .submit:hover {
+                background-color: #FF0000;
+                color: #FFFFFF; } }
+        nav .header-social-mobile .header-sign-up .newsletter-form-wrapper .email, nav .header-social-mobile .header-sign-up .newsletter-form-wrapper .submit, nav .header-social-desktop .header-sign-up .newsletter-form-wrapper .email, nav .header-social-desktop .header-sign-up .newsletter-form-wrapper .submit {
+          float: left; }
+    nav .header-social-mobile ul, nav .header-social-desktop ul {
+      text-align: center;
+      padding: 0; }
+    nav .header-social-mobile .social, nav .header-social-desktop .social {
+      margin-bottom: 1em; }
+      nav .header-social-mobile .social li, nav .header-social-desktop .social li {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 1.2em; }
+        nav .header-social-mobile .social li a, nav .header-social-desktop .social li a {
+          vertical-align: middle; }
+      nav .header-social-mobile .social li:last-child, nav .header-social-desktop .social li:last-child {
+        margin-right: 0; }
+    nav .header-social-mobile .youtube-spotify, nav .header-social-desktop .youtube-spotify {
+      text-align: center; }
+      nav .header-social-mobile .youtube-spotify li:first-child, nav .header-social-desktop .youtube-spotify li:first-child {
+        margin-right: 0.8em;
+        top: -1px;
+        position: relative; }
+  nav .header-social-mobile {
+    display: block;
+    background-color: #FFFFFF; }
+    nav .header-social-mobile li {
+      text-align: center;
+      display: inline; }
+      nav .header-social-mobile li a {
+        color: #000000; }
+    @media screen and (min-width: 700px) {
+      nav .header-social-mobile {
+        display: none; } }
+  nav .header-social-desktop {
+    display: none;
+    height: 22px;
+    background-color: #FFFFFF;
+    border-top: 0px; }
+    nav .header-social-desktop:after {
+      content: "";
+      display: table;
+      clear: both; }
+    @media screen and (min-width: 700px) {
+      nav .header-social-desktop {
+        display: block; } }
+    nav .header-social-desktop .social {
+      float: left;
+      margin-bottom: 0; }
+      nav .header-social-desktop .social li {
+        margin-right: 0.8em; }
+        @media screen and (min-width: 700px) {
+          nav .header-social-desktop .social li:hover {
+            opacity: 0.5; } }
+        @media screen and (min-width: 890px) {
+          nav .header-social-desktop .social li {
+            margin-right: 0.4em; } }
+    nav .header-social-desktop .youtube-spotify {
+      float: right; }
+      nav .header-social-desktop .youtube-spotify li {
+        display: inline-block; }
+  nav .nav-items {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+    @media screen and (min-width: 700px) {
+      nav .nav-items {
+        text-align: center; }
+        nav .nav-items li {
+          display: inline-block;
+          padding: 0;
+          vertical-align: middle; }
+          nav .nav-items li:hover {
+            background-color: #FF0000;
+             }
+
+          nav .nav-items li:hover a {
+                text-shadow: -4px -3px 0px rgba(0, 0, 0, 1);
+                -ms-transform: rotate(-4deg); /* IE 9 */
+    -webkit-transform: rotate(-4deg); /* Chrome, Safari, Opera */
+    transform: rotate(-4deg);
+          }
+        nav .nav-items .nav-home-desktop {
+          padding: 0 20px; }
+          nav .nav-items .nav-home-desktop:hover {
+            -ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+            background-color: #000000; }
+            nav .nav-items .nav-home-desktop:hover .sprite-knife-party-mobile {
+              display: none; }
+            nav .nav-items .nav-home-desktop:hover .sprite-knife-party-mobile-hover {
+              display: block;
+              margin-top: -3px; }
+          nav .nav-items .nav-home-desktop .sprite-knife-party {
+            display: none; }
+          nav .nav-items .nav-home-desktop .sprite-knife-party-hover, nav .nav-items .nav-home-desktop .sprite-knife-party-mobile-hover {
+            display: none; }
+          nav .nav-items .nav-home-desktop .sprite-knife-party-mobile {
+            display: inline-block; }
+          @media screen and (min-width: 890px) {
+            nav .nav-items .nav-home-desktop .sprite-knife-party {
+              display: inline-block; }
+            nav .nav-items .nav-home-desktop .sprite-knife-party-mobile {
+              display: none; }
+            nav .nav-items .nav-home-desktop:hover {
+              background-color: #000000; }
+              nav .nav-items .nav-home-desktop:hover .sprite-knife-party, nav .nav-items .nav-home-desktop:hover .sprite-knife-party-mobile-hover {
+                display: none; }
+              nav .nav-items .nav-home-desktop:hover .sprite-knife-party-hover {
+                display: block;
+                margin-top: -5px; } }
+          nav .nav-items .nav-home-desktop a {
+            padding: 0; } }
+    nav .nav-items li a {
+      display: block;
+      text-align: center;
+      padding: 1em 0em; }
+      @media screen and (min-width: 700px) {
+        nav .nav-items li a {
+          padding: 48px 22px; } }
+      @media screen and (min-width: 700px) {
+        nav .nav-items li a {
+          padding: 48px 22px; } }
+    nav .nav-items li:last-child {
+      margin-bottom: 1em; }
+      @media screen and (min-width: 700px) {
+        nav .nav-items li:last-child {
+          margin-bottom: 0; } }
+    nav .nav-items .nav-home-mobile {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center; }
+      @media screen and (min-width: 700px) {
+        nav .nav-items .nav-home-mobile {
+          display: none; } }
+    nav .nav-items .nav-home-desktop {
+      display: none;
+      padding-left: 40px;
+      padding-right: 40px; }
+      @media screen and (min-width: 700px) {
+        nav .nav-items .nav-home-desktop {
+          display: inline-block; } }
