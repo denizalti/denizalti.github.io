@@ -70,7 +70,6 @@ table.layouttable tr, table.layouttable td {
     display: grid;
     position: relative;
     width: 100%;
-    margin: 10px;
 }
 
 .twoGridContainer {
