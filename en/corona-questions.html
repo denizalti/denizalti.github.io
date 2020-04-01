@@ -1,0 +1,144 @@
+<html lang="en">
+<head>
+  <script src="includes/header.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55641322-2', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <script>
+  // Collapsible source accessibility.
+  // Source: https://alligator.io/css/collapsible/
+  let myLabels = document.querySelectorAll('.lbl-toggle');
+
+  Array.from(myLabels).forEach(label => {
+    label.addEventListener('keydown', e => {
+      // 32 === spacebar
+      // 13 === enter
+      if (e.which === 32 || e.which === 13) {
+        e.preventDefault();
+        label.click();
+      };
+    });
+  });
+  </script>
+
+</head>
+<body>
+
+  <img class="handwriting-maintitle" src="../static/title.png"  alt="Deniz Altinbuken"/>
+  <header class="header">
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+      <ul class="menu">
+      <li><a href="index.html" class="nav">Home</a></li>
+      <li><a href="corona-questions.html" class="currentLink">Corona Questions</a></li>
+      <li><a href="corona-updates.html" class="nav">Corona Updates</a></li>
+      <li><a href="about.html" class="nav">About</a></li>
+      </ul>
+  </header>
+
+  <div class="container">
+    <div class="mainMediumText" style="text-align: left;">
+      <ol>
+          <li style='padding: 1vw;'><script src="questions/origin.js"></script></li>
+          <li style='padding: 1vw;'><script src="questions/predictable.js"></script></li>
+          <li style='padding: 1vw;'><script src="questions/mutate.js"></script></li>
+          <li style='padding: 1vw;'><script src="questions/reinfection.js"></script></li>
+
+            <li style="padding: 1vw;"><b>Can SARS-CoV-2 infect a patient more than once?</b><br>
+
+              Corona viruses are not new, as a result there has been at least some research on them. Research suggests that coronaviruses are protein-stable, i.e. they do not alter their surface proteins easily. In light of this, the more likely explanation for the reinfection claims is that the tests that were done during discharge were false-negatives. When a person gets better, the number of viruses go down slowly, but they do not go to zero right away. During this time testing might be less reliable and the symptoms can later worsen.
+              <div class="wrap-collabsible">
+                <input id="collapsible4" class="toggle" type="checkbox">
+                <label for="collapsible4" class="lbl-toggle">Sources</label>
+                <div class="collapsible-content">
+                  <div class="content-inner">
+                    <ul>
+                      <li><a href="https://nextstrain.org/ncov">
+                        Genomic epidemiology of novel coronavirus</a></li>
+                        <li><a href="https://www.gisaid.org/">Global Initiative on Sharing All Influenza Data</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=lj3NhPgOoX4">Virology 2020: What is a virus?</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li style="padding: 1vw;"><b>How does SARS-CoV-2 spread?</b><br>
+                SARS-CoV-2 is a respiratory virus, like other corona viruses. These viruses use the respiratory secretions to spread. The viruses are primarily shed through droplets generated when an infected person coughs or sneezes, or through droplets of saliva or discharge from the nose. But depending on the person viruses can be shed even while speaking: The letter P is enough to shed hundreds of thousands of viruses. We create aerosols when we talk, cough, sneeze and the virus travels in the aerosol. SARS-CoV-2 is suspected to be able to travel 1-8 feet, depending on aerosol droplet size. Having said that, airborne spread has not been reported for COVID-19 and it is not believed to be a major driver of transmission based on available evidence.
+
+                Once on a surface, SARS-CoV-2 coronavirus can survive up to 3 days, depending on the surface:
+
+                <img class="questions" src="../static/sarscov2onsurfaces.png"  alt="SARS-CoV-2 on Surfaces"/>
+
+                There are four things to note in this study:
+                <ol>
+                  <li>The study is done by counting the number of viruses on given surfaces. It is very important to know that not every virus that is seen on a surface is able to infect cells. The ratio depends on the virus, and can be as high as 1/1 (Semliki Forest Virus) or as low as 1/1000 (Polio Virus).</li>
+                  <li>As shown, the number of viruses that are visible decrease over time. So on day 2 there is much fewer viruses on a given surface than on day 1.</li>
+                  <li>The aerosols data is collected by counting the number of viruses that stay present in a 40 L Goldberg drum used for aerosol survival studies. This is an isolated air drum, and is different from the environments people might get exposed to the aerosols.</li>
+                  <li>Lastly, a person needs to be exposed to thousands of viruses to be infected. Data so far suggests that this might be more likely through touch. So it is very important to wash your hands thoroughly and frequently.</li>
+                </ol>
+                <div class="wrap-collabsible">
+                  <input id="collapsible5" class="toggle" type="checkbox">
+                  <label for="collapsible5" class="lbl-toggle">Sources</label>
+                  <div class="collapsible-content">
+                    <div class="content-inner">
+                      <ul>
+                        <li><a href="https://www.who.int/news-room/q-a-detail/q-a-coronaviruses">WHO Q&A on coronaviruses (COVID-19)</a></li>
+                        <li><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters">WHO Coronavirus disease (COVID-19) advice for the public: Myth busters</a></li>
+                        <li><a href="https://www.who.int/docs/default-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf"></a>Report of the WHO-China Joint Mission
+                          on Coronavirus Disease 2019 (COVID-19)</li>
+                          <li><a href="http://www.microbe.tv/twiv">This week in Virology</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li style="padding: 1vw;"><b>Is washing hands better than using hand sanitizer?</b><br>
+                  Yes, is the short answer. Washing your hands with soap for 30 seconds is better than using a hand sanitizer because if you do not use a generous amount hand sanitizer evaporates quickly, probably before you can clean all the surfaces on your hand to inactivate all the viruses. If you do not have access to soap and water, use a hand sanitizer that contains at least 60% alcohol. Cover all surfaces of your hands and rub them together until they feel dry.
+                  <div class="wrap-collabsible">
+                    <input id="collapsible6" class="toggle" type="checkbox">
+                    <label for="collapsible6" class="lbl-toggle">Sources</label>
+                    <div class="collapsible-content">
+                      <div class="content-inner">
+                        <ul>
+                          <li><a href="http://www.microbe.tv/twiv">This week in Virology</a></li>
+                          <li><a href="https://www.cdc.gov/coronavirus/2019-ncov/prepare/prevention.html">CDC Guidelines: How to protect yourself</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li style="padding: 1vw;"><b>Will warmer temperatures eradicate the virus?</b><br>
+                  Temperature and humidity play a role in the transmission of the virus. High temperatures inactivate the virus on surfaces much quicker. High humidity lowers the travel length of the droplets. But in hot and humid climates there are still viral infections, including the flu. So the warmer temperatures will lower the spread a little bit, but lack of global immunity will still be overriding the effects of temperature. This is also evident by the spread in both hemispheres:
+
+                  <img class="questions" src="../static/covid19maptemp.png"  alt="SARS-CoV-2 on Surfaces"/>
+
+                  <div class="wrap-collabsible">
+                    <input id="collapsible7" class="toggle" type="checkbox">
+                    <label for="collapsible7" class="lbl-toggle">Sources</label>
+                    <div class="collapsible-content">
+                      <div class="content-inner">
+                        <ul>
+                          <li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3556998">Will Coronavirus Pandemic Diminish by Summer?</a></li>
+                          <li><a href="https://ccdd.hsph.harvard.edu/will-covid-19-go-away-on-its-own-in-warmer-weather/">Seasonality of SARS-CoV-2: Will COVID-19 go away on its own in warmer weather?</a></li>
+                          <li><a href="http://www.microbe.tv/twiv">This week in Virology</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ol>
+
+            </div>
+          </div>
+        </body>
+        </html>
