@@ -250,7 +250,6 @@ input[type='checkbox'] {
   padding: .5rem 1rem;
 }
 
-/* Used for welcome msg in home.html, main content in weddingday.html */
 .mainLargeText {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -259,9 +258,6 @@ input[type='checkbox'] {
     position: relative;
     color: black;
     font-size: 40px;
-/* letter-spacing: 1px;
-    word-spacing: 2px;
-    */
 }
 
 .mainHugeText {
@@ -440,7 +436,7 @@ input, select {
 
     .mainMediumText {
         font-size: 24px;
-        line-height: 42px;
+        line-height: 34px;
     }
 
     a.button {
@@ -522,7 +518,6 @@ input, select {
     .header li {
         font-size: medium;
     }
-
 }
 
 @media all and (max-width: 850px) {
@@ -545,8 +540,8 @@ input, select {
     }
 
     .mainMediumText {
-        font-size: 14px;
-        line-height: 32px;
+        font-size: 20px;
+        line-height: 30px;
     }
 
     a.button {
@@ -574,6 +569,10 @@ input, select {
         text-align: center;
         font-size: 18px;
         line-height: 150%;
+    }
+
+    .left-picture {
+      display: none;
     }
 }
 
