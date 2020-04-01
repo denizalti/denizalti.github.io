@@ -251,13 +251,12 @@ input[type='checkbox'] {
 }
 
 .mainLargeText {
-    padding-top: 10px;
-    padding-bottom: 10px;
     background-color: transparent;
     text-align: center;
     position: relative;
     color: black;
     font-size: 40px;
+    padding: 40px;
 }
 
 .mainHugeText {
@@ -285,7 +284,7 @@ input, select {
 
 /* Used for welcome date in home.html, place content in weddingday.html */
 .mainMediumText {
-    text-align: center;
+    text-align: left;
 }
 
 /* Header that switches between horizontal layout & hamburger */
@@ -537,6 +536,7 @@ input, select {
     .mainLargeText {
         font-size: 22px;
         line-height: 32px;
+        padding: 0px;
     }
 
     .mainMediumText {
@@ -727,4 +727,15 @@ ul .content > li::before {
         flex: 100%;
         max-width: 100%;
     }
+}
+
+/* Plots */
+#us-state-deaths {
+width:90%;
+height:400px;
+padding-top: 10px;
+alignment: center;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
