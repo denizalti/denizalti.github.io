@@ -24,5 +24,4 @@ Genomic epidemiology of novel coronavirus</a></li>\
 </ul>\
 </div>\
 </div>\
-</div>\
-");
+</div>");
