@@ -24,9 +24,8 @@ img.questions {
     alignment: center;
     display: block;
     margin-top: 1vw;
-    margin-left: 10vw;
     margin-bottom: 1vw;
-    width: 70%;
+    width: 95%;
 }
 
 /* Table purely for laying out old school */
@@ -192,12 +191,12 @@ input[type='checkbox'] {
   font-weight: bold;
 
   text-transform: uppercase;
-  text-align: center;
+  text-align: left;
 
   padding: 2px;
 
-  color: white;
-  background: teal;
+  color: #5C5F5E; /* dark grey */
+  background: white;
 
   cursor: pointer;
 
@@ -243,11 +242,15 @@ input[type='checkbox'] {
 }
 
 .collapsible-content .content-inner {
-  background: #62B5A6;
-  border-bottom: 1px solid #62B5A6;
+  background: white;
+  border-bottom: 1px solid white;
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
-  padding: .5rem 1rem;
+}
+
+.collapsible-content .content-inner ul {
+  list-style-type: square;
+  list-style-position: inside;
 }
 
 .mainLargeText {
@@ -605,7 +608,7 @@ ul.timeline > li {
 
 ul .year {
     color: black;
-    background: lightgray; /* dark grey */
+    background: lightgray;
     display: block;
     position: relative;
     padding-left: 24px;
@@ -738,4 +741,100 @@ alignment: center;
 display: block;
 margin-left: auto;
 margin-right: auto;
+}
+
+.svg-container {
+  alignment: center;
+  display: block;
+  width:90%;
+}
+
+/* LINE CHART */
+path {
+fill: none;
+stroke: #ed3700;
+}
+
+/* AXES */
+/* ticks */
+.axis line{
+stroke: #706f6f;
+stroke-width: 0.5;
+shape-rendering: crispEdges;
+}
+
+/* axis contour */
+.axis path {
+stroke: #706f6f;
+stroke-width: 0.7;
+shape-rendering: crispEdges;
+}
+
+/* axis text */
+.axis text {
+fill: #2b2929;
+font-family: Georgia;
+font-size: 120%;
+}
+
+/* LINE CHART */
+path.line-0 {
+fill: none;
+stroke: #ed3700;
+}
+
+path.line-1 {
+fill: none;
+stroke: #2b2929;
+stroke-dasharray: 2;
+}
+
+path.line-2 {
+fill: none;
+stroke: #9c9c9c;
+stroke-dasharray: 6;
+}
+
+path.line-3 {
+fill: none;
+stroke: #9c9c9c;
+stroke-dasharray: 6;
+}
+
+path.line-4 {
+fill: none;
+stroke: #9c9c9c;
+stroke-dasharray: 6;
+}
+
+.serie_label {
+fill: #d2d2d2;
+font-family: Georgia;
+font-size: 80%;
+}
+
+/* TOOLTIP */
+.tooltip {
+fill: #2b2929;
+font-family: Georgia;
+font-size: 150%;
+}
+
+/* POINTS */
+.point {
+stroke: none;
+fill: #9c9c9c;
+}
+
+/* LINES */
+.line {
+fill: none;
+stroke: #d2d2d2;
+}
+
+.ghost-line {
+fill: none;
+stroke: #d2d2d2;
+opacity: 0;
+stroke-width: 10;
 }
