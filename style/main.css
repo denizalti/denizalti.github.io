@@ -71,6 +71,11 @@ table.layouttable tr, table.layouttable td {
     width: 100%;
 }
 
+.graph {
+  alignment: center;
+  vertical-align: middle;
+}
+
 .twoGridContainer {
     display: grid;
     position: relative;
@@ -743,8 +748,26 @@ margin-left: auto;
 margin-right: auto;
 }
 
+/* Horizontal Tree */
 .svg-container {
+  padding-left:100px;
+  margin-left:100px;
   alignment: center;
   display: block;
   width:90%;
+}
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 3px;
+}
+
+.node text {
+  font: 12px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
 }
