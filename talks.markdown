@@ -3,7 +3,7 @@ layout: page
 permalink: /talks/
 ---
 
-## Speaker and guest lecturer (excludes conference presentations)
+## Speaker and guest lecturer (excludes conference presentationss)
 
 -   Guest lecture at San Jose State University about trade-offs around using Machine Learning in Systems. 2020
 
