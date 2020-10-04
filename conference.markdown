@@ -3,7 +3,7 @@ layout: page
 permalink: /conference/
 ---
 
-### PC Member and Session Chair at Systems conferences.
+## PC Member and Session Chair at Systems conferences.
 
 -   Serving in the PC for [OSDI'21](https://www.usenix.org/conference/osdi21).
 
@@ -15,6 +15,6 @@ permalink: /conference/
 
 -   Served in the PC for [ATC'18](https://www.usenix.org/conference/atc18/) and [chaired the Transactions and Datacenter/Machine Learning sessions](https://www.usenix.org/conference/atc18/technical-sessions).
 
-### PC Member at DEI conferences.
+## PC Member at DEI conferences.
 
 -   Served as a reviewer for Poster sessions for [Tapia Conference 2020](http://tapiaconference.org/).
