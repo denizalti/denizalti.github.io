@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
@@ -45,6 +44,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-=======
-theme: jekyll-theme-cayman
->>>>>>> origin/master
