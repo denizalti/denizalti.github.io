@@ -19,8 +19,9 @@ people while they do what they are best at.
 Prior to joining <font face="futura"><font color="#4885ed">G</font><font color="#db3236">o</font><font color="#f4c20d">o</font><font color="#4885ed">g</font><font color="#3cba54">l</font><font color="#db3236">e</font></font> I received a Ph.D. in Computer Science from Cornell University.
 During my Ph.D. I focused on building Distributed Systems that rely on strong
 foundations in Distributed Systems Theory. I specialized in consensus protocols
-([Paxos Made Moderately Complex](http://paxos.systems/), Chain Replication), replication (OpenReplica)
-and evolving systems (Transformations).
+([Paxos Made Moderately Complex](http://paxos.systems/)), replication
+([Chain Replication](https://www.youtube.com/watch?v=1hDjkV4iFzs), [OpenReplica](https://ecommons.cornell.edu/bitstream/handle/1813/29009/OpenReplica.pdf?sequence=2&isAllowed=y))
+and evolving systems ([Ovid/Transformations](https://www.usenix.org/system/files/conference/hotcloud16/hotcloud16_altinbuken.pdf)).
 
 In addition to my technical work, I serve as a [PC member]({{ site.baseurl }}/conference/)
 in Distributed Systems and DEI Conferences, mentor students and junior engineers,
