@@ -25,7 +25,6 @@ and evolving systems ([Ovid/Transformations](https://www.usenix.org/system/files
 
 In addition to my technical work, I serve as a [PC member]({{ site.baseurl }}/conference/)
 in Distributed Systems and DEI Conferences, mentor students and junior engineers,
-give [talks/guest lectures]({{ site.baseurl }}/talks/), and volunteer to spread
-the idea that there are many different ways to excel at what you do.
+give [talks/guest lectures]({{ site.baseurl }}/talks/).
 
 You can contact me at [hello@{{ site.address }}](mailto:hello@{{ site.address }})
