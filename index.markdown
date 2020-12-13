@@ -9,7 +9,7 @@ features and simplicity with scalability, reliability, and efficiency.
 In my work I constantly push to improve the state-of-the-art to deal with the
 challenges of building ever-evolving systems. Sometimes this means focusing on
 supporting new features with minimal changes to the system design, sometimes it
-means employing Machine Learning as a crucial component in the system, and
+means [employing Machine Learning as a crucial component in the system](http://mlforsystems.org/assets/papers/neurips2020/learned_abu-libdeh_2020.pdf), and
 sometimes it means working on a clean-slate design to build the next iteration
 of a given system.
 
@@ -28,3 +28,15 @@ in Distributed Systems and DEI Conferences, mentor students and junior engineers
 give [talks/guest lectures]({{ site.baseurl }}/talks/).
 
 You can contact me at [hello@{{ site.address }}](mailto:hello@{{ site.address }})
+
+### Latest News
+
+- Presented our work [Learned Indexes for a Google-scale Disk-based Database](http://mlforsystems.org/assets/papers/neurips2020/learned_abu-libdeh_2020.pdf) at [ML for Systems Workshop at NeurIPS 2020](http://mlforsystems.org/). December, 2020
+
+- Accepted to serve as a PC Member for [ICDCS'21](https://icdcs2021.us/). November, 2020
+
+- Gave a talk on Doing Research in Industry at [Explore CS Research Workshop](https://www.cs.cornell.edu/events/explore-cs-research) at Cornell University. November, 2020
+
+- Gave a guest lecture at San Jose State University about trade-offs around using Machine Learning in Systems. October, 2020
+
+- Accepted to serve as a PC Member for [OSDI'21](https://www.usenix.org/conference/osdi21). September, 2020
