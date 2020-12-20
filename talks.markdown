@@ -5,7 +5,7 @@ permalink: /talks/
 
 ## Speaker and guest lecturer (excludes conference presentations)
 
-- Presented our work [Learned Indexes for a Google-scale Disk-based Database](http://mlforsystems.org/assets/papers/neurips2020/learned_abu-libdeh_2020.pdf) at [ML for Systems Workshop at NeurIPS 2020] (http://mlforsystems.org/). 12 December, 2020
+- Presented our work [Learned Indexes for a Google-scale Disk-based Database](http://mlforsystems.org/assets/papers/neurips2020/learned_abu-libdeh_2020.pdf) at [ML for Systems Workshop at NeurIPS 2020](http://mlforsystems.org/). 12 December, 2020
 
 -   Guest lecture at San Jose State University about trade-offs around using Machine Learning in Systems. 2020
 
