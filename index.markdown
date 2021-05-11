@@ -2,7 +2,7 @@
 layout: page
 ---
 
-I'm a Senior Software Engineer <font face="futura"><font color="#4885ed">G</font><font color="#db3236">o</font><font color="#f4c20d">o</font><font color="#4885ed">g</font><font color="#3cba54">l</font><font color="#db3236">e</font></font> Research.
+I'm a Senior Software Engineer <font face="futura"><font color="#4885ed">G</font><font color="#db3236">o</font><font color="#f4c20d">o</font><font color="#4885ed">g</font><font color="#3cba54">l</font><font color="#db3236">e</font></font> **Research**.
 My work is focused on advancing the state-of-the-art in systems using machine learning.
 
 <!-- I focus on designing and implementing distributed systems that balance strong
@@ -29,7 +29,7 @@ You can contact me at [hello@{{ site.address }}](mailto:hello@{{ site.address }}
 
 ### Latest News
 
-- Moved to Google Research to focus on building learned systems full-time. May, 2021
+- Moved to **Google Research** to focus on building learned systems full-time. May, 2021
 
 - Accepted to serve as a PC Member for [FAST'22](https://www.usenix.org/conference/fast22). April, 2021
 
