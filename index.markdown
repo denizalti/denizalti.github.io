@@ -29,7 +29,7 @@ You can contact me at [hello@{{ site.address }}](mailto:hello@{{ site.address }}
 
 ### Latest News
 
-- Moved to the Google Research on to focus on building smart systems full-time. May, 2021
+- Moved to Google Research to focus on building learned systems full-time. May, 2021
 
 - Accepted to serve as a PC Member for [FAST'22](https://www.usenix.org/conference/fast22). April, 2021
 
