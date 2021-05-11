@@ -3,8 +3,6 @@ layout: page
 permalink: /publications/
 ---
 
-## Publications
-
 - [Learned Indexes for a Google-scale Disk-based Database](http://mlforsystems.org/assets/papers/neurips2020/learned_abu-libdeh_2020.pdf) at [ML for Systems Workshop at NeurIPS 2020](http://mlforsystems.org/). 12 December, 2020
 
 - [Building Evolvable Distributed Systems for Dynamic Data Center Environments.](https://ecommons.cornell.edu/handle/1813/47693) Deniz Altınbüken. P.h.D. Thesis. January 2017.
